@@ -1,0 +1,145 @@
+/*variaveis/set inicio*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@500&display=swap');
+
+:root{
+    --corfundo: #363636;
+    --cortexto: #DBD4D4;
+    --corbox: #585555;
+    --configshadow: 5px 5px 4px rgba(255, 255, 255, 0.25);;
+    --corlinha: #424242;
+}
+
+/*variaveis/set fim*/
+
+/* pagina/body/root inicio*/
+
+body{
+    background: var(--corfundo);
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+#pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 95%;
+    padding: 10px;
+}
+
+/* pagina/body/root fim*/
+
+/* titulo inicio*/
+
+.container-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#titulo{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(15px + 8vh);
+    color: var(--cortexto);
+}
+
+/* titulo fim*/
+
+/* hora inicio*/
+
+.container-hora{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#hora{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(15px + 6vh);
+    color: var(--cortexto);
+    background: var(--corbox);
+    padding-right: calc(10px + 3vw);
+    padding-left: calc(10px + 3vw);
+    padding-top: calc(5px + 5vh);
+    padding-bottom: calc(5px + 5vh);
+    box-shadow: var(--configshadow);
+}
+
+/* hora fim*/
+
+/*config links inicio*/
+
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: calc(10px + 10vw);
+    animation: float 6s ease-in-out infinite;
+    width: 100%;
+}
+
+.links1{
+    display: flex;
+}
+
+.links2{
+    display: flex;
+}
+
+.links3{
+    display: flex;
+}
+
+.card-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-links img{
+    height: 10vmin;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+#linha{
+    width: 45%;
+    height: 2px;
+    border-radius: 25px;
+    background: var(--corlinha);
+}
+
+/*config links fim*/
