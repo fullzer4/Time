@@ -38,12 +38,12 @@ class App extends Component {
                             </a>
                         </div>
                         <div class="links-2">
-                            <a href="https://github.com/fullzer4" className="card-links">
+                            <a href="https://www.instagram.com/yfullzer4.exe/" className="card-links">
                                 <img src={Instagram} alt="instagram"/>
                             </a>
                         </div>
                         <div class="links-3">
-                            <a href="https://github.com/fullzer4" className="card-links">
+                            <a href="https://www.linkedin.com/in/gabrielpereira-sc/" className="card-links">
                                 <img src={Linkedin} alt="linkedin"/>
                             </a>
                         </div>
