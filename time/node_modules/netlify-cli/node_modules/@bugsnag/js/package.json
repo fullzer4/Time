@@ -1,0 +1,43 @@
+{
+  "name": "@bugsnag/js",
+  "version": "7.16.2",
+  "main": "node/notifier.js",
+  "browser": "browser/notifier.js",
+  "types": "types.d.ts",
+  "description": "Universal Javascript error reporting. Automatically detect JavaScript errors in the browser and Node.js, with plugins for React, Vue, Angular, Express, Restify and Koa.",
+  "keywords": [
+    "exception",
+    "bugsnag",
+    "error",
+    "javascript",
+    "browsers",
+    "monitoring",
+    "reporting",
+    "stability",
+    "client-side",
+    "server-side"
+  ],
+  "homepage": "https://www.bugsnag.com/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bugsnag/bugsnag-js.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "browser",
+    "node",
+    "types.d.ts"
+  ],
+  "author": "Bugsnag",
+  "license": "MIT",
+  "dependencies": {
+    "@bugsnag/browser": "^7.16.2",
+    "@bugsnag/node": "^7.16.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0"
+  },
+  "gitHead": "58c0ade57fa1ada78ce3dd912022f3e15b326fc7"
+}
